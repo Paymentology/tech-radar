@@ -1,0 +1,128 @@
+[
+  {
+    "name": "GitHub Actions + GitHub Runners",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD"
+  },
+  {
+    "name": "Java 21 + Springboot",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Backend services"
+  },
+  {
+    "name": "Java 17",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services"
+  },
+  {
+    "name": "Java 14",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services"
+  },
+  {
+    "name": "Kotlin",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services"
+  },
+  {
+    "name": "JavaScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications"
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications"
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications"
+  },
+  {
+    "name": "Kafka",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Streaming/Async messaging"
+  },
+  {
+    "name": "HTTPS/JSON",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Real-time messaging"
+  }, 
+  {
+    "name": "PostgreSQL",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database"
+  },
+   {
+    "name": "Liquibase",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Database schema versioning and change management"
+  },
+   {
+    "name": "IntelliJ",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "IDE"
+  },
+   {
+    "name": "Checkstyle",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Adherence to coding standards"
+  },
+   {
+    "name": "JUnit 5 + Mockito",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Unit testing"
+  },
+  {
+    "name": "Rocky Linux 9",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Host operating system"
+  },
+  {
+    "name": "CentOS 7",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Host operating system"
+  },
+  {
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Infrastructure/application configuration"
+  }
+]
