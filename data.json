@@ -106,7 +106,7 @@
   },
   {
     "name": "Rocky Linux 9",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Host operating system"
