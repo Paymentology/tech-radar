@@ -124,5 +124,12 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Infrastructure/application configuration"
+  },
+  {
+    "name": "JFrog Platform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD"
   }
 ]
