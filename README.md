@@ -1,0 +1,1 @@
+- In order to propose changes/additions, please submit a PR directly on the repository and contact your Engineering Manager to attend the next available AWG meeting to present on it.
