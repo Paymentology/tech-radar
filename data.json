@@ -68,7 +68,7 @@
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Real-time messaging"
-  }, 
+  },
   {
     "name": "PostgreSQL",
     "ring": "adopt",
@@ -124,6 +124,20 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Infrastructure/application configuration"
+  },
+  {
+    "name": "Maven",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD"
+  },
+  {
+    "name": "Gradle",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD"
   },
   {
     "name": "JFrog Platform",
