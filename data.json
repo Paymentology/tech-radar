@@ -133,10 +133,10 @@
     "description": "CI/CD"
   },
   {
-    "name": "JFrog Platform",
+    "name": "JFrog Platform (Artifactory, Xray)",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "CI/CD"
+    "description": "A binary repository manager with security scanning. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8374616338/SDLC+Use+Case+-+store+binaries+in+JFrog+Platform"
   }
 ]
