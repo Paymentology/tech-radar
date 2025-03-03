@@ -138,5 +138,12 @@
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "A binary repository manager with security scanning. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8374616338/SDLC+Use+Case+-+store+binaries+in+JFrog+Platform"
+  },
+  {
+    "name": "SonarQube Cloud",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CICD. Formerly SonarCloud. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323399681/SDLC+Use+Case+-+improve+code+quality+with+SonarCloud"
   }
 ]
