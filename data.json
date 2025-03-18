@@ -173,5 +173,19 @@
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "Systems programming language focused on safety, concurrency, and performance"
+  },
+  {
+    "name": "SonarQube Cloud",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CICD. Formerly SonarCloud. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323399681/SDLC+Use+Case+-+improve+code+quality+with+SonarCloud"
+  },
+  {
+    "name": "Checkov",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CICD. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323530753/SDLC+Use+Case+-+detect+IaC+vulnerabilities+with+Checkov"
   }
 ]
