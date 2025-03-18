@@ -140,6 +140,41 @@
     "description": "A binary repository manager with security scanning. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8374616338/SDLC+Use+Case+-+store+binaries+in+JFrog+Platform"
   },
   {
+    "name": "Erlang 26",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Functional programming language with concurrency and distribution capabilities"
+  },
+  {
+    "name": "Erlang 27",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Functional programming language with concurrency and distribution capabilities"
+  },
+  {
+    "name": "Elixir 1.15",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Functional programming language with concurrency and distribution capabilities"
+  },
+  {
+    "name": "Jsonnet",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Data templating language for generating and managing complex JSON configurations"
+  },
+  {
+    "name": "Rust",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Systems programming language focused on safety, concurrency, and performance"
+  },
+  {
     "name": "SonarQube Cloud",
     "ring": "adopt",
     "quadrant": "tools",
