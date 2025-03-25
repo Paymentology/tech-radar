@@ -189,10 +189,10 @@
     "description": "CICD. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323530753/SDLC+Use+Case+-+detect+IaC+vulnerabilities+with+Checkov"
   },
   {
-    "name": "Cloud managed object storage (AWS S3, Google Cloud Storage)",
+    "name": "AWS S3",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Use managed object storage from our public cloud providers on the basis that AWS, Google provide S3-interopable object storage"
+    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3"
   }
 ]
