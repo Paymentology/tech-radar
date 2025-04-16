@@ -57,10 +57,24 @@
   },
   {
     "name": "Kafka",
-    "ring": "trial",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
     "description": "Streaming/Async messaging"
+  },
+  {
+    "name": "AWS MSK",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kafka management in AWS"
+  },
+  {
+    "name": "Google Cloud Managed Service for Apache Kafka",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kafka management in GCP"
   },
   {
     "name": "HTTPS/JSON",
@@ -70,13 +84,55 @@
     "description": "Real-time messaging"
   },
   {
+    "name": "SQL",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Structured Query Language"
+  },
+  {
     "name": "PostgreSQL",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database System"
+  },
+  {
+    "name": "Microsoft SQL",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database System"
+  },
+  {
+    "name": "Amazon RDS Aurora PostgreSQL",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Relational Database"
+    "description": "Relational Database System"
   },
-   {
+  {
+    "name": "Kubernetes",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Open-source container orchestration platform"
+  },
+  {
+    "name": "AWS EKS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kubernetes service management in AWS"
+  },
+  {
+    "name": "Google GKE",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kubernetes service management in GCP"
+  },
+  {
     "name": "Liquibase",
     "ring": "adopt",
     "quadrant": "tools",
@@ -109,7 +165,7 @@
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Host operating system"
+    "description": "Operating system"
   },
   {
     "name": "Terraform",
@@ -194,5 +250,89 @@
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3"
+  },
+  {
+    "name": "AWS API Gateway",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs"
+  },
+  {
+    "name": "Helm",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Package manager for Kubernetes"
+  },
+  {
+    "name": "Hashicorp Vault",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Identity-based secrets and encryption management system"
+  },
+  {
+    "name": "C++",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Used for C-lib library for Rule Engine v1"
+  },
+  {
+    "name": "Auth0",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Identity provider"
+  },
+  {
+    "name": "Cyberark Venafi",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "PKI"
+  },
+  {
+    "name": "AWS WAF",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS Web Application Firewall"
+  },
+  {
+    "name": "Palo Alto",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Network Application Firewall"
+  },
+  {
+    "name": "Datadog",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Monitoring and analytics platform"
+  },
+  {
+    "name": "AWS ECS",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS service for Container orchestration"
+  },
+  {
+    "name": "PRTG",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Network monitoring application"
+  },
+  {
+    "name": "AWS Athena",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS query service to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL."
   }
 ]
