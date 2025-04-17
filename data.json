@@ -287,11 +287,11 @@
     "description": "Identity provider"
   },
   {
-    "name": "Cyberark Venafi",
+    "name": "ZeroTouch PKI",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "PKI"
+    "description": "PKI as a service. Cyberark Venafi"
   },
   {
     "name": "AWS WAF",
@@ -334,5 +334,96 @@
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "AWS query service to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL."
+  },
+  {
+    "name": "AWS",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS cloud platform"
+  },
+  {
+    "name": "GCP",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Google Cloud platform"
+  },
+  {
+    "name": "OCI",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Oracle cloud platform"
+  },
+  {
+    "name": "Azure",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Microsoft cloud platform"
+  },
+  {
+    "name": "Physical datacenters",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "self-hosted platform"
+  },
+  {
+    "name": "Thales 9000 HSM",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM"
+  },
+  {
+    "name": "Luna Safenet HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM"
+  },
+  {
+    "name": "Ultimaco HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM"
+  },
+  {
+    "name": "PKS Soft HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Software HSM"
+  },
+  {
+    "name": "Futurex Cloud HSM",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Cloud HSM"
+  },
+  {
+    "name": "AWS Lambda",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS service for serverless compute"
+  },
+  {
+    "name": "Grafana",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "observability platform"
+  },
+  {
+    "name": "Grafana Loki",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "log aggregation system"
   }
 ]
