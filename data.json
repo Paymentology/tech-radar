@@ -112,6 +112,13 @@
     "description": "Relational Database System"
   },
   {
+    "name": "Amazon ElastiCache",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Amazon ElastiCache for Valkey and for Redis OSS"
+  },
+  {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
