@@ -146,21 +146,21 @@
     "isNew": "FALSE",
     "description": "Database schema versioning and change management"
   },
-   {
+  {
     "name": "IntelliJ",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "IDE"
   },
-   {
+  {
     "name": "Checkstyle",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Adherence to coding standards"
   },
-   {
+  {
     "name": "JUnit 5 + Mockito",
     "ring": "adopt",
     "quadrant": "tools",
@@ -256,7 +256,10 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3"
+    "description": "Stuff",
+    "url": "https://aws.amazon.com/s3/",
+    "owner": "DevOps-Platform",
+    "maturityLevel": "GA"
   },
   {
     "name": "AWS API Gateway",
