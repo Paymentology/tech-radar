@@ -1,436 +1,614 @@
 [
   {
-    "name": "GitHub Actions + GitHub Runners",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "CI/CD"
-  },
-  {
-    "name": "Java 21 + Springboot",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Backend services"
-  },
-  {
-    "name": "Java 17",
+    "name": "C++",
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Backend services"
-  },
-  {
-    "name": "Java 14",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Backend services"
-  },
-  {
-    "name": "Kotlin",
-    "ring": "assess",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Backend services"
-  },
-  {
-    "name": "JavaScript",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Web applications"
-  },
-  {
-    "name": "TypeScript",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Web applications"
-  },
-  {
-    "name": "React",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Web applications"
-  },
-  {
-    "name": "Kafka",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Streaming/Async messaging"
-  },
-  {
-    "name": "AWS MSK",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Kafka management in AWS"
-  },
-  {
-    "name": "Google Cloud Managed Service for Apache Kafka",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Kafka management in GCP"
-  },
-  {
-    "name": "HTTPS/JSON",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Real-time messaging"
-  },
-  {
-    "name": "SQL",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Structured Query Language"
-  },
-  {
-    "name": "PostgreSQL",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Relational Database System"
-  },
-  {
-    "name": "Microsoft SQL",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Relational Database System"
-  },
-  {
-    "name": "Amazon RDS Aurora PostgreSQL",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Relational Database System"
-  },
-  {
-    "name": "Amazon ElastiCache",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Amazon ElastiCache for Valkey and for Redis OSS"
-  },
-  {
-    "name": "Kubernetes",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Open-source container orchestration platform"
-  },
-  {
-    "name": "AWS EKS",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Kubernetes service management in AWS"
-  },
-  {
-    "name": "Google GKE",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Kubernetes service management in GCP"
-  },
-  {
-    "name": "Liquibase",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Database schema versioning and change management"
-  },
-   {
-    "name": "IntelliJ",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "IDE"
-  },
-   {
-    "name": "Checkstyle",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Adherence to coding standards"
-  },
-   {
-    "name": "JUnit 5 + Mockito",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Unit testing"
-  },
-  {
-    "name": "CentOS 7",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Operating system"
-  },
-  {
-    "name": "Terraform",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Infrastructure/application configuration"
-  },
-  {
-    "name": "Maven",
-    "ring": "hold",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "CI/CD"
-  },
-  {
-    "name": "Gradle",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "CI/CD"
-  },
-  {
-    "name": "JFrog Platform (Artifactory, Xray)",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "A binary repository manager with security scanning. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8374616338/SDLC+Use+Case+-+store+binaries+in+JFrog+Platform"
-  },
-  {
-    "name": "Erlang 26",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "FALSE",
-    "description": "Functional programming language with concurrency and distribution capabilities"
-  },
-  {
-    "name": "Erlang 27",
-    "ring": "adopt",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Functional programming language with concurrency and distribution capabilities"
+    "description": "Used for C-lib library for Rule Engine v1",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
   },
   {
     "name": "Elixir 1.15",
     "ring": "assess",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Functional programming language with concurrency and distribution capabilities"
+    "description": "Functional programming language with concurrency and distribution capabilities",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
   },
   {
-    "name": "Jsonnet",
+    "name": "Erlang 26",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Functional programming language with concurrency and distribution capabilities",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Erlang 27",
     "ring": "adopt",
-    "quadrant": "tools",
+    "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Data templating language for generating and managing complex JSON configurations"
+    "description": "Functional programming language with concurrency and distribution capabilities",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "HTTPS/JSON",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Real-time messaging",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Java 14",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Java 17",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Java 21 + Springboot",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Backend services",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "JavaScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Kafka",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Streaming/Async messaging",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Kotlin",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Backend services",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Open-source container orchestration platform",
+    "owner": "Platform",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "React",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
   },
   {
     "name": "Rust",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Systems programming language focused on safety, concurrency, and performance"
+    "description": "Systems programming language focused on safety, concurrency, and performance",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
   },
   {
-    "name": "SonarQube Cloud",
+    "name": "SQL",
     "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "CICD. Formerly SonarCloud. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323399681/SDLC+Use+Case+-+improve+code+quality+with+SonarCloud"
-  },
-  {
-    "name": "Checkov",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "CICD. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323530753/SDLC+Use+Case+-+detect+IaC+vulnerabilities+with+Checkov"
-  },
-  {
-    "name": "AWS S3",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3"
-  },
-  {
-    "name": "AWS API Gateway",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs"
-  },
-  {
-    "name": "Helm",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "Package manager for Kubernetes"
-  },
-  {
-    "name": "Hashicorp Vault",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Identity-based secrets and encryption management system"
-  },
-  {
-    "name": "C++",
-    "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Used for C-lib library for Rule Engine v1"
+    "description": "Structured Query Language",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "TypeScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Web applications",
+    "owner": "Engineering",
+    "maturityLevel": "tbc"
+  },
+  {
+    "name": "Amazon RDS Aurora PostgreSQL",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database System",
+    "owner": "DBA",
+    "maturityLevel": "Release Candidate (RC)"
   },
   {
     "name": "Auth0",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Identity provider"
-  },
-  {
-    "name": "ZeroTouch PKI",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "PKI as a service. Cyberark Venafi"
-  },
-  {
-    "name": "AWS WAF",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "AWS Web Application Firewall"
-  },
-  {
-    "name": "Palo Alto",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Network Application Firewall"
-  },
-  {
-    "name": "Datadog",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Monitoring and analytics platform"
-  },
-  {
-    "name": "AWS ECS",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "AWS service for Container orchestration"
-  },
-  {
-    "name": "PRTG",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Network monitoring application"
-  },
-  {
-    "name": "AWS Athena",
-    "ring": "adopt",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "AWS query service to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL."
+    "description": "Identity provider",
+    "owner": "NetworkOps",
+    "maturityLevel": "Beta"
   },
   {
     "name": "AWS",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "AWS cloud platform"
+    "description": "AWS cloud platform",
+    "owner": "CloudOps",
+    "maturityLevel": "Long Term Support (LTS)"
   },
   {
-    "name": "GCP",
+    "name": "AWS API Gateway",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Google Cloud platform"
+    "description": "AWS service for creating, publishing, maintaining, monitoring, and securing REST, HTTP, and WebSocket APIs",
+    "owner": "NetworkOps",
+    "maturityLevel": "Beta"
   },
   {
-    "name": "OCI",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Oracle cloud platform"
-  },
-  {
-    "name": "Azure",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Microsoft cloud platform"
-  },
-  {
-    "name": "Physical datacenters",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "self-hosted platform"
-  },
-  {
-    "name": "Thales 9000 HSM",
+    "name": "AWS Athena",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Physical HSM"
+    "description": "AWS query service to analyze data directly in Amazon Simple Storage Service (Amazon S3) using standard SQL.",
+    "owner": "DBA",
+    "maturityLevel": "Proof of Concept"
   },
   {
-    "name": "Luna Safenet HSM",
+    "name": "AWS ECS",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Physical HSM"
+    "description": "AWS service for Container orchestration",
+    "owner": "Engineering",
+    "maturityLevel": "Release Candidate (RC)"
   },
   {
-    "name": "Ultimaco HSM",
-    "ring": "hold",
+    "name": "AWS EKS",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Physical HSM"
-  },
-  {
-    "name": "PKS Soft HSM",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Software HSM"
-  },
-  {
-    "name": "Futurex Cloud HSM",
-    "ring": "assess",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "Cloud HSM"
+    "description": "Kubernetes service management in AWS",
+    "owner": "Platform",
+    "maturityLevel": "General Availability (GA)"
   },
   {
     "name": "AWS Lambda",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "AWS service for serverless compute"
+    "description": "AWS service for serverless compute",
+    "owner": "CloudOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "AWS MSK",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kafka management in AWS",
+    "owner": "Engineering",
+    "maturityLevel": "Release Candidate (RC)"
+  },
+  {
+    "name": "AWS S3",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3.",
+    "owner": "CloudOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "AWS WAF",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS Web Application Firewall",
+    "owner": "NetworkOps",
+    "maturityLevel": "Beta"
+  },
+  {
+    "name": "Azure",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Microsoft cloud platform",
+    "owner": "CloudOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "CentOS 7",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Operating system",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Datadog",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Monitoring and analytics platform",
+    "owner": "SRE",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Futurex Cloud HSM",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Cloud HSM",
+    "owner": "Engineering",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "GCP",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Google Cloud platform",
+    "owner": "CloudOps",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "Google Cloud Managed Service for Apache Kafka",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kafka management in GCP",
+    "owner": "Engineering",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "Google GKE",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Kubernetes service management in GCP",
+    "owner": "Platform",
+    "maturityLevel": "Proof of Concept"
   },
   {
     "name": "Grafana",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "observability platform"
+    "description": "observability platform",
+    "owner": "SRE",
+    "maturityLevel": "Proof of Concept"
   },
   {
     "name": "Grafana Loki",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "log aggregation system"
+    "description": "log aggregation system",
+    "owner": "SRE",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "Hashicorp Vault",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Identity-based secrets and encryption management system",
+    "owner": "Platform",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "Luna Safenet HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Microsoft SQL",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database System",
+    "owner": "DBA",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "OCI",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Oracle cloud platform",
+    "owner": "CloudOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Palo Alto",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Network Application Firewall",
+    "owner": "NetworkOps",
+    "maturityLevel": "Beta"
+  },
+  {
+    "name": "Physical datacenters",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "self-hosted platform",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "PKS Soft HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Software HSM",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Relational Database System",
+    "owner": "DBA",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "PRTG",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Network monitoring application",
+    "owner": "NetworkOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Thales 9000 HSM",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Ultimaco HSM",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Physical HSM",
+    "owner": "SysOps",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "ZeroTouch PKI",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "PKI as a service. Cyberark Venafi",
+    "owner": "NetworkOps",
+    "maturityLevel": "Release Candidate (RC)"
+  },
+  {
+    "name": "Checkov",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CICD. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323530753/SDLC+Use+Case+-+detect+IaC+vulnerabilities+with+Checkov",
+    "owner": "DevOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "Checkstyle",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Adherence to coding standards",
+    "owner": "Engineering",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "GitHub Actions + GitHub Runners",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD",
+    "owner": "DevOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "Gradle",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD",
+    "owner": "Engineering",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Helm",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Package manager for Kubernetes",
+    "owner": "Platform",
+    "maturityLevel": "Beta"
+  },
+  {
+    "name": "IntelliJ",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "IDE",
+    "owner": "Engineering",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "JFrog Platform (Artifactory, Xray)",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "A binary repository manager with security scanning. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8374616338/SDLC+Use+Case+-+store+binaries+in+JFrog+Platform",
+    "owner": "DevOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "Jsonnet",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Data templating language for generating and managing complex JSON configurations",
+    "owner": "Engineering",
+    "maturityLevel": ""
+  },
+  {
+    "name": "JUnit 5 + Mockito",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Unit testing",
+    "owner": "Engineering",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "Liquibase",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Database schema versioning and change management",
+    "owner": "DBA",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "Maven",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CI/CD",
+    "owner": "Engineering",
+    "maturityLevel": "Long Term Support (LTS)"
+  },
+  {
+    "name": "AWS Global Accelerator",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "Netwoking service",
+    "owner": "CloudOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "AWS SQS",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Simple Queue Service",
+    "owner": "Engineering",
+    "maturityLevel": "Alpha"
+  },
+  {
+    "name": "AWS Secrets Manager",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Secrets Manager",
+    "owner": "Platform",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "AWS Control Tower",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "governance and management service",
+    "owner": "CloudOps",
+    "maturityLevel": "Proof of Concept"
+  },
+  {
+    "name": "AWS Transit Gateway",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Managed network hub",
+    "owner": "NetworkOps",
+    "maturityLevel": "Beta"
+  },
+  {
+    "name": "Application Load Balancer",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "load balancer",
+    "owner": "NetworkOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "AWS CloudFront",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "CDN for static and dynamic content",
+    "owner": "CloudOps",
+    "maturityLevel": "Beta"
+  },
+  {
+    "name": "SonarQube Cloud",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "CICD. Formerly SonarCloud. SDLC Use Case: https://paymentology.atlassian.net/wiki/spaces/TS/pages/8323399681/SDLC+Use+Case+-+improve+code+quality+with+SonarCloud",
+    "owner": "DevOps",
+    "maturityLevel": "General Availability (GA)"
+  },
+  {
+    "name": "Terraform",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "Infrastructure/application configuration",
+    "owner": "DevOps",
+    "maturityLevel": "General Availability (GA)"
   }
 ]
