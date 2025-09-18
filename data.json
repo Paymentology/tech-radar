@@ -469,13 +469,6 @@
     "description": "Backend services"
   },
   {
-    "name": "Java J2EE",
-    "ring": "hold",
-    "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Application server"
-  },
-  {
     "name": "Adobe Coldfusion",
     "ring": "hold",
     "quadrant": "languages & frameworks",
