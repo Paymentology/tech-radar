@@ -10,7 +10,7 @@
     "name": "Java 21 + Springboot",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Backend services"
   },
   {
@@ -105,18 +105,18 @@
     "description": "Relational Database System"
   },
   {
-    "name": "Amazon RDS Aurora PostgreSQL",
+    "name": "AWS RDS Aurora PostgreSQL",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Relational Database System"
   },
   {
-    "name": "Amazon ElastiCache",
+    "name": "AWS ElastiCache",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
-    "description": "Amazon ElastiCache for Valkey and for Redis OSS"
+    "isNew": "FALSE",
+    "description": "AWS ElastiCache for Valkey and for Redis OSS"
   },
   {
     "name": "Kubernetes",
@@ -207,35 +207,35 @@
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Functional programming language with concurrency and distribution capabilities"
+    "description": "Functional programming language with concurrency and distribution capabilities, limited to existing use cases."
   },
   {
     "name": "Erlang 27",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
-    "description": "Functional programming language with concurrency and distribution capabilities"
+    "isNew": "FALSE",
+    "description": "Functional programming language with concurrency and distribution capabilities, limited to existing use cases."
   },
   {
     "name": "Elixir 1.15",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Functional programming language with concurrency and distribution capabilities"
   },
   {
     "name": "Jsonnet",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "Data templating language for generating and managing complex JSON configurations"
+    "isNew": "FALSE",
+    "description": "Data templating language for generating and managing complex JSON configurations, limited to existing use cases."
   },
   {
     "name": "Rust",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
-    "description": "Systems programming language focused on safety, concurrency, and performance"
+    "description": "Limited to existing use cases"
   },
   {
     "name": "SonarQube Cloud",
@@ -379,7 +379,7 @@
   },
   {
     "name": "Thales 9000 HSM",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Physical HSM"
@@ -432,5 +432,201 @@
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "log aggregation system"
+  },
+  {
+    "name": "Lovable",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered app development platform"
+  },
+  {
+    "name": "GitHub",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Version control"
+  },
+  {
+    "name": "CircleCI",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "CI/CD"
+  },
+  {
+    "name": "Coldfusion",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Backend services"
+  },
+  {
+    "name": "Java J2EE",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Backend services"
+  },
+  {
+    "name": "Wildfly",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Application server"
+  },
+  {
+    "name": "Adobe Coldfusion",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Application server"
+  },
+  {
+    "name": "Python",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Data engineering projects only"
+  },
+  {
+    "name": "Apache Spark",
+    "ring": "assess",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Data engineering projects only"
+  },
+  {
+    "name": "IIS",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Web server, limited to existing use cases"
+  },
+  {
+    "name": "NGINX",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Web server"
+  },
+  {
+    "name": "OpenAI",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "AI tool"
+  },
+  {
+    "name": "AWS Fargate",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Serverless compute engine for containers, limited to existing use cases."
+  },
+  {
+    "name": "Github Copilot",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "AI tool"
+  },
+  {
+    "name": "Codex",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "AI tool"
+  },
+  {
+    "name": "Windows",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Operating system"
+  },
+  {
+    "name": "Rocky Linux",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Operating system, limited to existing use cases"
+  },
+  {
+    "name": "Windows Service Java wrapper",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Wrapper to run java applications as a windows services. DO NOT USE."
+  },
+  {
+    "name": "Atlassian Confluence",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Knowledge Management"
+  },
+  {
+    "name": "Atlassian JIRA",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Issue Management"
+  },
+  {
+    "name": "Renovate",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Automated dependency update"
+  },
+  {
+    "name": "Wiz",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Security tool"
+  },
+  {
+    "name": "AWS CloudWatch",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Monitoring and observability"
+  },
+  {
+    "name": "FusionReactor",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Monitoring and observability, limited to ColdFusion use cases"
+  },
+  {
+    "name": "Zendesk",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Issue Management"
+  },
+  {
+    "name": "PagerDuty",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Alert Management"
+  },
+  {
+    "name": "Slack",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Instant messaging tool"
+  },
+  {
+    "name": "Inkeep",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI tool, used through payai chatbot"
   }
 ]
