@@ -109,7 +109,7 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Relational Database System"
+    "description": "Relational Database System. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8847851537/Common+Core+Service+-+rdbms\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "AWS ElastiCache",
@@ -119,18 +119,25 @@
     "description": "AWS ElastiCache for Valkey and for Redis OSS"
   },
   {
+    "name": "AWS IAM",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "AWS IAM for identity and access management. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8847851552/AWS+IAM\" target=\"_blank\">Internal docs</a>"
+  },
+  {
     "name": "Kubernetes",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Open-source container orchestration platform"
+    "description": "Open-source container orchestration platform. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8847851521/Common+Core+Service+-+compute\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "AWS EKS",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Kubernetes service management in AWS"
+    "description": "Kubernetes service management in AWS. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8847851521/Common+Core+Service+-+compute\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Google GKE",
@@ -146,21 +153,21 @@
     "isNew": "FALSE",
     "description": "Database schema versioning and change management"
   },
-   {
+  {
     "name": "IntelliJ",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "IDE"
   },
-   {
+  {
     "name": "Checkstyle",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Adherence to coding standards"
   },
-   {
+  {
     "name": "JUnit 5 + Mockito",
     "ring": "adopt",
     "quadrant": "tools",
@@ -256,7 +263,7 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3"
+    "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8843657306/AWS+S3\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "AWS API Gateway",
@@ -417,7 +424,7 @@
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "AWS service for serverless compute"
+    "description": "AWS service for serverless compute. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8847032322/AWS+Lambda\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Grafana",
