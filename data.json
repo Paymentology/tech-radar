@@ -635,5 +635,40 @@
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "AI tool, used through payai chatbot"
+  },
+  {
+    "name": "Adapter Pattern - Principles",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8474492967/Adapter+Pattern\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Cloud Strategy - Principles",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8408105033/Cloud+Strategy+-+Principles\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Microfrontend (MFE) Architecture - Principles",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8484093975/Microfrontend+Architecture+-+Principles\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Core Database - Principles",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8644264124/Core+Database+Principles\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Reference Data - Definition & Architecture",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8769863684/Reference+Data+-+Definition+Architectures\" target=\"_blank\">Internal docs</a>"
   }
 ]
