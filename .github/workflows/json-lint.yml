@@ -1,0 +1,46 @@
+name: Validate JSON in PRs
+
+on:
+  pull_request:
+    # Only run if PR touches JSON files (keeps the workflow quiet otherwise)
+    paths:
+      - "**/*.json"
+
+jobs:
+  json-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          # We need full history to diff base<->head reliably
+          fetch-depth: 0
+
+      - name: Validate changed JSON files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # List JSON files added/changed/renamed in the PR
+          files="$(git diff --name-only --diff-filter=ACMR \
+                    "${{ github.event.pull_request.base.sha }}" \
+                    "${{ github.event.pull_request.head.sha }}" \
+                    | grep -E '\.json$' || true)"
+
+          if [[ -z "$files" ]]; then
+            echo "No JSON files changed in this PR."
+            exit 0
+          fi
+
+          echo "Validating JSON files:"
+          echo "$files"
+
+          # Use Python's built-in JSON parser to validate each file
+          # (alternatively, you can use `jq -e '.' "$f"` if you prefer jq)
+          while IFS= read -r f; do
+            echo "→ $f"
+            python -m json.tool "$f" > /dev/null
+          done <<< "$files"
+
+          echo "All changed JSON files are valid ✅"
