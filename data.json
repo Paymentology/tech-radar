@@ -241,7 +241,7 @@
     "name": "Rust",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Limited to existing use cases"
   },
   {
@@ -444,231 +444,245 @@
     "name": "Lovable",
     "ring": "trial",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "AI-powered app development platform"
   },
   {
     "name": "GitHub",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Version control"
   },
   {
     "name": "CircleCI",
     "ring": "hold",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "CI/CD"
   },
   {
     "name": "Coldfusion",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Backend services"
   },
   {
     "name": "Java J2EE",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Backend services"
   },
   {
     "name": "Wildfly",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Application server"
   },
   {
     "name": "Adobe Coldfusion",
     "ring": "hold",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Application server"
   },
   {
     "name": "Python",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Data engineering projects only"
   },
   {
     "name": "Apache Spark",
     "ring": "assess",
     "quadrant": "languages & frameworks",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Data engineering projects only"
   },
   {
     "name": "IIS",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Web server, limited to existing use cases"
   },
   {
     "name": "NGINX",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Web server"
   },
   {
     "name": "OpenAI",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "AI tool"
   },
   {
     "name": "AWS Fargate",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Serverless compute engine for containers, limited to existing use cases."
   },
   {
     "name": "Github Copilot",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "AI tool"
   },
   {
     "name": "Codex",
     "ring": "adopt",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "AI tool"
   },
   {
     "name": "Windows",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Operating system"
   },
   {
     "name": "Rocky Linux",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Operating system, limited to existing use cases"
   },
   {
     "name": "Windows Service Java wrapper",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Wrapper to run java applications as a windows services. DO NOT USE."
   },
   {
     "name": "Atlassian Confluence",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Knowledge Management"
   },
   {
     "name": "Atlassian JIRA",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Issue Management"
   },
   {
     "name": "Renovate",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Automated dependency update"
   },
   {
     "name": "Wiz",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Security tool"
   },
   {
     "name": "AWS CloudWatch",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Monitoring and observability"
   },
   {
     "name": "FusionReactor",
     "ring": "hold",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Monitoring and observability, limited to ColdFusion use cases"
   },
   {
     "name": "Zendesk",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Issue Management"
   },
   {
     "name": "PagerDuty",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Alert Management"
   },
   {
     "name": "Slack",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "Instant messaging tool"
   },
   {
     "name": "Inkeep",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "AI tool, used through payai chatbot"
   },
   {
     "name": "Adapter Pattern - Principles",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8474492967/Adapter+Pattern\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Cloud Strategy - Principles",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8408105033/Cloud+Strategy+-+Principles\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Microfrontend (MFE) Architecture - Principles",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8484093975/Microfrontend+Architecture+-+Principles\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Core Database - Principles",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8644264124/Core+Database+Principles\" target=\"_blank\">Internal docs</a>"
   },
   {
     "name": "Reference Data - Definition & Architecture",
     "ring": "adopt",
     "quadrant": "techniques",
-    "isNew": "TRUE",
+    "isNew": "FALSE",
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8769863684/Reference+Data+-+Definition+Architectures\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "AWS DMS",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Data Migration Services in AWS"
+  },
+  {
+    "name": "AWS Babelfish for Aurora PostgreSQL",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "MS-SQL compatibility layer for AWS Aurora PostgreSQL"
   }
 ]
