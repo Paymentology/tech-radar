@@ -677,7 +677,7 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Data Migration Services in AWS"
-  },
+  }
   {
     "name": "AWS Babelfish for Aurora PostgreSQL",
     "ring": "trial",
