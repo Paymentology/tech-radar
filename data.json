@@ -684,5 +684,12 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "MS-SQL compatibility layer for AWS Aurora PostgreSQL"
+  },
+  {
+    "name": "Test Entry",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Testing JSON linter will give this the go-ahead as valid JSON"
   }
 ]
