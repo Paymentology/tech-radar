@@ -684,5 +684,47 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "MS-SQL compatibility layer for AWS Aurora PostgreSQL"
+  },
+  {
+    "name": "ChatGPT",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered general assistant by OpenAI for writing, brainstorming, and analysis. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9617866859/ChatGPT\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "PayAI",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered search assistant in Slack for internal knowledge. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/8853782530/PayAI\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Microsoft Copilot Chat",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI assistant integrated with Microsoft 365 (Teams, Outlook, web). <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/8807481498/Copilot+Chat\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "AWS Bedrock",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI model access platform in AWS for production workloads. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9617834023/AWS+Bedrock\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Cursor",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-native IDE under evaluation as complement to GitHub Copilot. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9650503820/Cursor\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "Windsurf",
+    "ring": "hold",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "AI-powered IDE, not formally approved for general use. Security review pending. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9650503843/Windsurf\" target=\"_blank\">Internal docs</a>"
   }
 ]
