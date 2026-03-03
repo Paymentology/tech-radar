@@ -728,7 +728,7 @@
     "description": "AI-powered IDE, not formally approved for general use. Security review pending. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9650503843/Windsurf\" target=\"_blank\">Internal docs</a>"
   },
   {
-    "name": "AWS Glue Catalog",
+    "name": "AWS Glue Data Catalog",
     "ring": "trial",
     "quadrant": "platforms",
     "isNew": "TRUE",
