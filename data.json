@@ -726,5 +726,54 @@
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "AI-powered IDE, not formally approved for general use. Security review pending. <a href=\"https://paymentology.atlassian.net/wiki/spaces/AI/pages/9650503843/Windsurf\" target=\"_blank\">Internal docs</a>"
+  },
+  {
+    "name": "AWS Glue Data Catalog",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Centralized metadata repository in AWS. Used as the metastore for Athena and compatible with Spark, Glue ETL, and Lake Formation for data discovery and governance."
+  },
+  {
+    "name": "AWS Lake Formation",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Data lake governance service in AWS. Provides fine-grained access control, data sharing, and centralized permissions management on top of AWS Glue Catalog and S3."
+  },
+  {
+    "name": "Apache Iceberg",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "TRUE",
+    "description": "Open table format for large-scale analytic datasets. Provides ACID transactions, schema evolution, time travel, and partition evolution on top of data lake storage (e.g. S3). Compatible with Athena, Spark, and Glue Catalog."
+  },
+  {
+    "name": "dbt Core",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Open-source data transformation tool that enables analytics engineers to transform data in the warehouse using SQL. Supports version-controlled, tested, and documented data models with built-in lineage tracking."
+  },
+  {
+    "name": "Databricks",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Unified analytics platform for data engineering, data science, and machine learning. Built on Apache Spark with support for Delta Lake, SQL analytics, and collaborative notebooks."
+  },
+  {
+    "name": "Snowflake",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Cloud-native data warehouse platform with separation of storage and compute. Supports structured and semi-structured data, cross-cloud replication, and near-zero maintenance."
+  },
+  {
+    "name": "AWS Glue Schema Registry",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Managed schema registry in AWS for validating and controlling the evolution of streaming data schemas. Supports Avro, JSON Schema, and Protobuf formats. Integrates with MSK, Kafka, and Glue Catalog."
   }
 ]
