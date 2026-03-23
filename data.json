@@ -729,7 +729,7 @@
   },
   {
     "name": "AWS Glue Data Catalog",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Centralized metadata repository in AWS. Used as the metastore for Athena and compatible with Spark, Glue ETL, and Lake Formation for data discovery and governance."
@@ -743,28 +743,28 @@
   },
   {
     "name": "Apache Iceberg",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "Open table format for large-scale analytic datasets. Provides ACID transactions, schema evolution, time travel, and partition evolution on top of data lake storage (e.g. S3). Compatible with Athena, Spark, and Glue Catalog."
   },
   {
     "name": "dbt Core",
-    "ring": "trial",
+    "ring": "adopt",
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "Open-source data transformation tool that enables analytics engineers to transform data in the warehouse using SQL. Supports version-controlled, tested, and documented data models with built-in lineage tracking."
   },
   {
     "name": "Databricks",
-    "ring": "assess",
+    "ring": "hold",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Unified analytics platform for data engineering, data science, and machine learning. Built on Apache Spark with support for Delta Lake, SQL analytics, and collaborative notebooks."
   },
   {
     "name": "Snowflake",
-    "ring": "assess",
+    "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Cloud-native data warehouse platform with separation of storage and compute. Supports structured and semi-structured data, cross-cloud replication, and near-zero maintenance."
