@@ -7,7 +7,7 @@
     "description": "CI/CD"
   },
   {
-    "name": "Java 21 + Springboot",
+    "name": "Java 21 + Springboot 4.0.1",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
@@ -28,7 +28,7 @@
     "description": "Backend services"
   },
   {
-    "name": "Kotlin",
+    "name": "Kotlin 1.9.20",
     "ring": "assess",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
@@ -42,14 +42,14 @@
     "description": "Web applications"
   },
   {
-    "name": "TypeScript",
+    "name": "TypeScript 5.8.3",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Web applications"
   },
   {
-    "name": "React",
+    "name": "React 19.1.0",
     "ring": "adopt",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
@@ -91,14 +91,14 @@
     "description": "Structured Query Language"
   },
   {
-    "name": "PostgreSQL",
+    "name": "PostgreSQL 16.6",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
     "description": "Relational Database System"
   },
   {
-    "name": "Microsoft SQL",
+    "name": "Microsoft SQL 2016",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
@@ -196,7 +196,7 @@
     "description": "CI/CD"
   },
   {
-    "name": "Gradle",
+    "name": "Gradle 9.3.1",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
@@ -469,14 +469,14 @@
     "description": "Backend services"
   },
   {
-    "name": "Java J2EE",
+    "name": "Java J2EE 6 + Maven 1.8",
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "Backend services"
   },
   {
-    "name": "Wildfly",
+    "name": "Wildfly 10.1.0.Final",
     "ring": "hold",
     "quadrant": "languages & frameworks",
     "isNew": "FALSE",
