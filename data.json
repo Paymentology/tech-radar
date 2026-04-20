@@ -577,7 +577,7 @@
     "name": "Atlassian Jira Service Management",
     "ring": "adopt",
     "quadrant": "tools",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Service Management"
   },
   {
