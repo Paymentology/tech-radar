@@ -574,7 +574,14 @@
     "description": "Knowledge Management"
   },
   {
-    "name": "Atlassian JIRA",
+    "name": "Atlassian Jira Service Management",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Service Management"
+  },
+  {
+    "name": "Atlassian Jira",
     "ring": "adopt",
     "quadrant": "tools",
     "isNew": "FALSE",
@@ -617,7 +624,7 @@
   },
   {
     "name": "PagerDuty",
-    "ring": "adopt",
+    "ring": "hold",
     "quadrant": "tools",
     "isNew": "FALSE",
     "description": "Alert Management"
