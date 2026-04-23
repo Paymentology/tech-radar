@@ -782,5 +782,12 @@
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Managed schema registry in AWS for validating and controlling the evolution of streaming data schemas. Supports Avro, JSON Schema, and Protobuf formats. Integrates with MSK, Kafka, and Glue Catalog."
+  },
+  {
+    "name": "AWS MWAA",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Amazon Managed Workflows for Apache Airflow. Managed orchestration service for data pipelines using Apache Airflow."
   }
 ]
