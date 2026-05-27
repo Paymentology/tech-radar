@@ -679,6 +679,13 @@
     "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/8769863684/Reference+Data+-+Definition+Architectures\" target=\"_blank\">Internal docs</a>"
   },
   {
+    "name": "Event Streaming - Principles",
+    "ring": "adopt",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<a href=\"https://paymentology.atlassian.net/wiki/spaces/pa/pages/9129656332/Event+Streaming+Platform+Principles\" target=\"_blank\">Internal docs</a>"
+  },
+  {
     "name": "AWS DMS",
     "ring": "trial",
     "quadrant": "platforms",
