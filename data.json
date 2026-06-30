@@ -269,7 +269,7 @@
     "name": "AWS SNS",
     "ring": "hold",
     "quadrant": "platforms",
-    "isNew": "FALSE",
+    "isNew": "TRUE",
     "description": "Use the AWS SNS managed service for messaging and notification. This is only permitted for AWS-only workloads. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/10085629970/AWS+SNS\" target=\"_blank\">Internal docs</a>"
   },
   {
