@@ -266,6 +266,13 @@
     "description": "Use the AWS S3 managed service for object storage. This is safe because the alternatives on alternate strategic cloud providers (e.g. Google Cloud Storage) are interoperable with S3. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/8843657306/AWS+S3\" target=\"_blank\">Internal docs</a>"
   },
   {
+    "name": "AWS SNS",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "TRUE",
+    "description": "Managed messaging/notifications service. Limited to AWS-only workloads; avoid for new multi-cloud/portable workloads because there is no GCP equivalent. <a href=\"https://paymentology.atlassian.net/wiki/spaces/PP/pages/10085629970/AWS+SNS\" target=\"_blank\">Internal docs</a>"
+  },
+  {
     "name": "AWS API Gateway",
     "ring": "adopt",
     "quadrant": "platforms",
